@@ -1,8 +1,144 @@
-{
-	"folders": [
-		{
-			"path": "C:/Users/Equipo/.vscode"
-		}
-	],
-	"settings": {}
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Fundamentos de Administración</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+    nav {
+      width: 250px;
+      background-color: #2c3e50;
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding: 20px;
+    }
+    nav h2 {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 10px;
+      padding: 5px 0;
+    }
+    nav a:hover {
+      background-color: #34495e;
+      padding-left: 10px;
+    }
+    main {
+      margin-left: 270px;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .frase {
+      font-style: italic;
+      background-color: #ecf0f1;
+      padding: 10px;
+      border-left: 5px solid #3498db;
+      margin: 20px 0;
+    }
+    .curioso {
+      background-color: #f9f9f9;
+      border-left: 4px solid #e67e22;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✔️ ";
+    }
+    .imagen-intro {
+      max-width: 800px;
+      width: 100%;
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Menú del Curso</h2>
+    <a href="#liderazgo">Liderazgo</a>
+    <a href="#gestion">Gestión</a>
+    <a href="#toma-decisiones">Toma de decisiones</a>
+    <a href="#estrategias">Estrategias prácticas</a>
+    <a href="#frases">Frases motivadoras</a>
+    <a href="#curiosidades">Datos curiosos</a>
+    <a href="#herramientas">Herramientas digitales</a>
+  </nav>
+
+  <main>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Teamwork_in_project_management.svg/512px-Teamwork_in_project_management.svg.png"
+         alt="Trabajo en equipo y administración"
+         class="imagen-intro">
+
+    <h1>Fundamentos de Administración</h1>
+
+    <section id="liderazgo">
+      <h2>Liderazgo</h2>
+      <p>El liderazgo es la capacidad de influir en otros para alcanzar objetivos comunes. Un buen líder inspira, motiva y guía al equipo hacia el éxito.</p>
+    </section>
+
+    <section id="gestion">
+      <h2>Gestión</h2>
+      <p>La gestión implica planear, organizar, dirigir y controlar los recursos de una organización de manera eficiente y efectiva.</p>
+    </section>
+
+    <section id="toma-decisiones">
+      <h2>Toma de decisiones</h2>
+      <p>Tomar decisiones es clave para resolver problemas y aprovechar oportunidades. Involucra identificar alternativas, evaluar riesgos y elegir la mejor opción.</p>
+    </section>
+
+    <section id="estrategias">
+      <h2>Estrategias prácticas</h2>
+      <p>Una estrategia práctica considera los recursos reales de una organización para lograr ventajas competitivas sostenibles.</p>
+    </section>
+
+    <section id="frases">
+      <h2>Frases motivadoras</h2>
+      <div class="frase">"Un líder es mejor cuando la gente apenas sabe que existe" – Lao Tzu</div>
+      <div class="frase">"La gestión es hacer las cosas bien. El liderazgo es hacer lo correcto" – Peter Drucker</div>
+      <div class="frase">"El éxito no es la clave de la felicidad. La felicidad es la clave del éxito" – Albert Schweitzer</div>
+    </section>
+
+    <section id="curiosidades">
+      <h2>Datos curiosos</h2>
+      <div class="curioso">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Peter_Drucker_2002.jpg/300px-Peter_Drucker_2002.jpg"
+             alt="Peter Drucker" width="150"><br>
+        Peter Drucker es considerado el padre de la administración moderna, pero nunca estudió administración formalmente.
+      </div>
+      <div class="curioso">Empresas como Google permiten un 20% del tiempo laboral para proyectos personales, fomentando la innovación y el liderazgo interno.</div>
+      <div class="curioso">La palabra "management" aparece por primera vez en inglés en el siglo XV y deriva del italiano "maneggiare" (manejar).</div>
+    </section>
+
+    <section id="herramientas">
+      <h2>Herramientas digitales recomendadas</h2>
+      <ul>
+        <li><strong>Trello:</strong> para gestión de proyectos con tableros colaborativos.</li>
+        <li><strong>Canva:</strong> para crear presentaciones y documentos visuales de forma sencilla.</li>
+        <li><strong>Notion:</strong> para organizar tareas, notas y bases de datos personales o de equipo.</li>
+        <li><strong>Google Workspace:</strong> para colaboración en tiempo real en documentos, hojas de cálculo y presentaciones.</li>
+        <li><strong>MindMeister:</strong> para hacer mapas mentales y visualizar ideas estratégicas.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
